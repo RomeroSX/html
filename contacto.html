@@ -20,7 +20,7 @@
   <h1>Contacto</h1>
 
   <h3>Formulario</h3>
-    <form action="index.html" method="get">
+    <form action="index.html" method="get" enctype="multipart/form-data">
       <div>
         <label for="nombre">Nombre...</label>
         <input
@@ -62,7 +62,18 @@
                               <label for="otro">Otro</label>
                               <input type="radio" name="genero" id="otro">
                             </div>
-
+                            <div>
+                              <select name="ciudad" id="ciudad">
+                                <option value="bucaramnga">bucaramnga
+                                  <option value="medellin">medellin
+                                    <option value="bogota">bogota
+                                      <option value="cauca">cauca</option>
+                                    </option>
+                                  </option>
+                                </option>
+                              </select>
+                            </div>
+                            <input type="date">
     <button>enviar</button>
 </form>
 </body>
